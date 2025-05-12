@@ -3,8 +3,9 @@ yii2-ajaxcrud
 
 Gii CRUD template for Single Page Ajax Administration for yii2 
 
-![yii2 ajaxcrud extension screenshot](https://c1.staticflickr.com/1/330/18659931433_6e3db2461d_o.png "yii2 ajaxcrud extension screenshot")
-
+![yii2 ajaxcrud extension screenshot]
+![image](https://github.com/user-attachments/assets/84c06ab2-0ead-4d06-83eb-c369092c29fa)
+![image](https://github.com/user-attachments/assets/143d5a20-865f-43f2-bda2-15ecf721da37)
 
 Features
 ------------
