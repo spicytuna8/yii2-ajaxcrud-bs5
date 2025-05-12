@@ -1,6 +1,6 @@
 yii2-ajaxcrud 
 =============
-
+Original work by johitvn.
 Gii CRUD template for Single Page Ajax Administration for yii2 
 
 ![yii2 ajaxcrud extension screenshot]
@@ -48,7 +48,26 @@ Let 's add into modules config in your main config file
     ]       
 ]
 ````
-
+Add translation to the config
+````php
+'components' => [
+    'i18n' => [
+        'translations' => [
+            'yii2-ajaxcrud' => [
+                'class' => 'yii\i18n\PhpMessageSource',
+                'basePath' => '@yii2ajaxcrud/ajaxcrud/messages',
+                'sourceLanguage' => 'en',
+            ],
+        ]
+    ]
+]
+````
+Add bsVersion to the params file
+````php
+return [
+    'bsVersion' => '5.x',
+];
+````
 You can then access Gii through the following URL:
 
 http://localhost/path/to/index.php?r=gii
